@@ -32,3 +32,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+.env file should contain:
+GEOSCAPE_KEY=geoscape_api_key
+GEOSCAPE_URL=https://api.psma.com.au/v1
+NEXT_PUBLIC_MAPBOX_KEY=mapbox public key
+BYPASS_GEOSCAPE=0/1 to control whether to skip expensive geoscape calls
+GA_URL=https://services.ga.gov.au/site_9/rest/services/DEM_SRTM_1Second/MapServer/export?dpi=192&format=tiff&transparent=true&layers=show%3A3&f=image&bbox=
+

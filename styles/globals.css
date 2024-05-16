@@ -1,3 +1,4 @@
+
 html,
 body {
   padding: 0;
@@ -23,4 +24,37 @@ a {
     color: white;
     background: black;
   }
+}
+
+.request-button {
+  padding: 5px;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.download-button {
+  padding: 5px;
+  position: absolute;
+  bottom: 2rem;
+  right: 7rem;
+}
+
+.radius {
+  padding: 5px;
+  position: absolute;
+  bottom: calc(50% - 300px);
+  right: calc(50% - 300px);
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  border: solid 2px black;
+  transform: rotateX(60deg);
+
+}
+
+.radius p {
+  text-align: center;
+  margin: calc(50% - 20px);
+  color: blue;
 }
